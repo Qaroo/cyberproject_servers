@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ltr6kwu"]); }
+
+__d("getReferrerURI",["ErrorGuard","URI","isFacebookURI"],(function(a,b,c,d,e,f,g){"use strict";function b(){if(a.PageTransitions&&a.PageTransitions.isInitialized())return a.PageTransitions.getReferrerURI();else{var b=c("ErrorGuard").applyWithGuard(function(a){return c("URI").tryParseURI(a)},null,[document.referrer]);return b&&c("isFacebookURI")(b)?b:null}}g["default"]=b}),98);
+__d("ReactDOM",["ReactDOMLegacy_DEPRECATED"],(function(a,b,c,d,e,f){Object.keys(importNamespace("ReactDOMLegacy_DEPRECATED")).forEach(function(a){if(a==="default"||a==="__esModule")return;f[a]=importNamespace("ReactDOMLegacy_DEPRECATED")[a]})}),null);
